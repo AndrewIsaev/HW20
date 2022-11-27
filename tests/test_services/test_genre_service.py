@@ -31,4 +31,4 @@ class TestGenreService():
         assert self.genre_service.update(data)
 
     def test_delete(self):
-        assert self.genre_service.delete(10) is None
+        assert self.genre_service.delete(1) is None
