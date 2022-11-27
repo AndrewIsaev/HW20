@@ -33,4 +33,3 @@ class TestDirectorService:
 
     def test_delete(self):
         assert self.director_service.delete(1) is None
-gi
